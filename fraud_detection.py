@@ -27,7 +27,7 @@ OneHotEncoder.__getattribute__ = patched_getattribute
 
 # Now load the model
 import joblib
-model = joblib.load("C:/Users/Goku/Downloads/Fraud_detection_pipline (2).pkl")
+model = joblib.load("Fraud_detection_pipline.pkl")  # Update path to match your file
 
 st.title("Fraud Detection Application")
 st.markdown("Please enter the transaction details and use the predict button")
